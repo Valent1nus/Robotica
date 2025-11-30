@@ -1,0 +1,39 @@
+[2.972s] Invoking command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_mavic': AMENT_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usuario/Robotica/ros2_ws/build/webots_ros2_mavic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/ros2_ws/install/webots_ros2_mavic/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Robotica/ros2_ws/build/webots_ros2_mavic/build --no-deps symlink_data
+[3.347s] Traceback (most recent call last):
+[3.347s]   File "/home/usuario/Robotica/ros2_ws/build/webots_ros2_mavic/setup.py", line 19, in <module>
+[3.348s]     setup(
+[3.348s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[3.372s]     return distutils.core.setup(**attrs)
+[3.375s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.377s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 147, in setup
+[3.378s]     _setup_distribution = dist = klass(attrs)
+[3.378s]                                  ^^^^^^^^^^^^
+[3.378s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 483, in __init__
+[3.378s]     for ep in metadata.entry_points(group='distutils.setup_keywords'):
+[3.379s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.379s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+[3.392s]     return EntryPoints(eps).select(**params)
+[3.392s]            ^^^^^^^^^^^^^^^^
+[3.394s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 911, in <genexpr>
+[3.394s]     dist.entry_points for dist in _unique(distributions())
+[3.394s]     ^^^^^^^^^^^^^^^^^
+[3.394s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 471, in entry_points
+[3.394s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[3.394s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.394s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 312, in _from_text_for
+[3.394s]     return cls(ep._for(dist) for ep in cls._from_text(text))
+[3.394s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.394s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 312, in <genexpr>
+[3.394s]     return cls(ep._for(dist) for ep in cls._from_text(text))
+[3.394s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.396s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 316, in <genexpr>
+[3.396s]     return (
+[3.396s]            ^
+[3.396s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 104, in <genexpr>
+[3.397s]     section._replace(value=Pair.parse(section.value))
+[3.398s]                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.398s]   File "/usr/lib/python3.12/importlib/metadata/_collections.py", line 30, in parse
+[3.398s]     return cls(*map(str.strip, text.split("=", 1)))
+[3.400s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.400s]   File "<string>", line 1, in <lambda>
+[3.400s] KeyboardInterrupt

@@ -1,0 +1,255 @@
+[0.090s] Invoking command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/usuario/Robotica/ros2_ws/build/webots_ros2_driver -- -j10 -l10
+[0.257s] [  0%] Built target ament_cmake_python_symlink_controller
+[0.262s] [  0%] Built target ament_cmake_python_symlink_vehicle
+[0.263s] [  0%] Built target ament_cmake_python_symlink_webots_ros2_driver
+[0.698s] running egg_info
+[0.719s] running egg_info
+[0.732s] writing controller.egg-info/PKG-INFO
+[0.732s] writing dependency_links to controller.egg-info/dependency_links.txt
+[0.734s] writing top-level names to controller.egg-info/top_level.txt
+[0.760s] running egg_info
+[0.784s] writing webots_ros2_driver.egg-info/PKG-INFO
+[0.784s] writing dependency_links to webots_ros2_driver.egg-info/dependency_links.txt
+[0.785s] writing top-level names to webots_ros2_driver.egg-info/top_level.txt
+[0.788s] writing vehicle.egg-info/PKG-INFO
+[0.788s] writing dependency_links to vehicle.egg-info/dependency_links.txt
+[0.792s] writing top-level names to vehicle.egg-info/top_level.txt
+[0.839s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[0.841s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[0.894s] reading manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[0.895s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[0.898s] reading manifest file 'vehicle.egg-info/SOURCES.txt'
+[0.900s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[0.909s] [  0%] Built target ament_cmake_python_build_controller_egg
+[0.949s] [  0%] Built target ament_cmake_python_build_webots_ros2_driver_egg
+[0.955s] [  0%] Built target ament_cmake_python_build_vehicle_egg
+[1.605s] [  0%] Built target compile-lib-controller
+[1.861s] [  0%] Built target compile-generic-window
+[2.756s] [  0%] Built target compile-lib-vehicle
+[2.894s] [ 14%] Built target webots_ros2_driver_rgbd
+[2.895s] [ 29%] Built target webots_ros2_driver_imu
+[2.930s] [100%] Built target driver
+[2.949s] Invoked command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/usuario/Robotica/ros2_ws/build/webots_ros2_driver -- -j10 -l10
+[2.950s] Invoking command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/usuario/Robotica/ros2_ws/build/webots_ros2_driver
+[2.964s] -- Install configuration: ""
+[2.966s] -- Execute custom install script
+[2.966s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.sh
+[2.968s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/pythonpath.dsv
+[2.968s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2025.0.1-py3.12.egg-info/PKG-INFO
+[2.969s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2025.0.1-py3.12.egg-info/SOURCES.txt
+[2.969s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2025.0.1-py3.12.egg-info/dependency_links.txt
+[2.970s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller-2025.0.1-py3.12.egg-info/top_level.txt
+[2.972s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/__init__.py
+[2.972s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/accelerometer.py
+[2.972s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/altimeter.py
+[2.973s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/ansi_codes.py
+[2.973s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/brake.py
+[2.973s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/camera.py
+[2.973s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/compass.py
+[2.973s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/connector.py
+[2.973s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/constants.py
+[2.973s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/device.py
+[2.973s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/display.py
+[2.974s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/distance_sensor.py
+[2.974s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/emitter.py
+[2.974s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/field.py
+[2.974s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/gps.py
+[2.975s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/gyro.py
+[2.975s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/inertial_unit.py
+[2.975s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/joystick.py
+[2.975s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/keyboard.py
+[2.975s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/led.py
+[2.975s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/lidar.py
+[2.976s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/lidar_point.py
+[2.976s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/light_sensor.py
+[2.976s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/motion.py
+[2.976s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/motor.py
+[2.976s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/mouse.py
+[2.976s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/node.py
+[2.976s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/pen.py
+[2.976s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/position_sensor.py
+[2.977s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/proto.py
+[2.977s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/radar.py
+[2.977s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/radar_target.py
+[2.977s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/range_finder.py
+[2.977s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/receiver.py
+[2.977s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/robot.py
+[2.977s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/sensor.py
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/skin.py
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/speaker.py
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/supervisor.py
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/touch_sensor.py
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/vacuum_gripper.py
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller/wb.py
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2025.0.1-py3.12.egg-info/PKG-INFO
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2025.0.1-py3.12.egg-info/SOURCES.txt
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2025.0.1-py3.12.egg-info/dependency_links.txt
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle-2025.0.1-py3.12.egg-info/top_level.txt
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle/__init__.py
+[2.980s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle/car.py
+[2.983s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle/driver.py
+[2.983s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2025.0.1-py3.12.egg-info/PKG-INFO
+[2.984s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2025.0.1-py3.12.egg-info/SOURCES.txt
+[2.984s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2025.0.1-py3.12.egg-info/dependency_links.txt
+[2.984s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver-2025.0.1-py3.12.egg-info/top_level.txt
+[2.984s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/__init__.py
+[2.985s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/ros2_supervisor.py
+[2.985s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/urdf_spawner.py
+[2.985s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/utils.py
+[2.985s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/wait_for_controller_connection.py
+[2.985s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/webots_controller.py
+[2.985s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver/webots_launcher.py
+[2.985s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/PluginInterface.hpp
+[2.985s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/PythonPlugin.hpp
+[2.986s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/WebotsNode.hpp
+[2.986s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/Ros2SensorPlugin.hpp
+[2.986s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2IMU.hpp
+[2.986s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/dynamic/Ros2RGBD.hpp
+[2.986s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Camera.hpp
+[2.986s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Compass.hpp
+[2.989s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2DistanceSensor.hpp
+[2.989s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Emitter.hpp
+[2.989s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2GPS.hpp
+[2.989s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LED.hpp
+[2.989s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Lidar.hpp
+[2.989s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2LightSensor.hpp
+[2.989s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Pen.hpp
+[2.990s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2RangeFinder.hpp
+[2.990s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2Receiver.hpp
+[2.990s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/plugins/static/Ros2VacuumGripper.hpp
+[2.990s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils/Math.hpp
+[2.990s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots_ros2_driver/utils/Utils.hpp
+[2.990s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/driver
+[2.991s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/libwebots_ros2_driver_imu.so
+[2.991s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/libwebots_ros2_driver_rgbd.so
+[2.992s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/accelerometer.h
+[2.993s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/altimeter.h
+[2.993s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/brake.h
+[2.993s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/camera.h
+[2.993s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/camera_recognition_object.h
+[2.993s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/compass.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/connector.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/console.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/contact_point.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/device.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/display.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/distance_sensor.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/emitter.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/gps.h
+[2.994s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/gyro.h
+[2.995s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/inertial_unit.h
+[2.995s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/joystick.h
+[2.995s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/keyboard.h
+[2.995s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/led.h
+[2.995s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/lidar.h
+[2.995s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/lidar_point.h
+[2.995s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/light_sensor.h
+[2.996s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/microphone.h
+[2.996s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/motor.h
+[2.996s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/mouse.h
+[2.996s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/mouse_state.h
+[2.996s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/nodes.h
+[2.996s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/pen.h
+[2.997s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/default.h
+[2.997s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/generic_robot_window/generic.h
+[2.997s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_window.h
+[2.997s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/plugins/robot_window/robot_wwi.h
+[2.997s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/position_sensor.h
+[2.997s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/radar.h
+[2.998s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/radar_target.h
+[2.998s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/radio.h
+[2.998s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/range_finder.h
+[2.998s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/receiver.h
+[2.998s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/remote_control.h
+[2.999s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/robot.h
+[2.999s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/skin.h
+[2.999s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/speaker.h
+[3.000s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/supervisor.h
+[3.003s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/touch_sensor.h
+[3.003s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/types.h
+[3.003s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/ansi_codes.h
+[3.003s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/motion.h
+[3.003s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/string.h
+[3.004s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/utils/system.h
+[3.004s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/vacuum_gripper.h
+[3.004s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle/car.h
+[3.004s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/c/webots/vehicle/driver.h
+[3.005s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Accelerometer.hpp
+[3.005s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Altimeter.hpp
+[3.005s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Brake.hpp
+[3.005s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Camera.hpp
+[3.006s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Compass.hpp
+[3.007s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Connector.hpp
+[3.007s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Device.hpp
+[3.008s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Display.hpp
+[3.008s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/DistanceSensor.hpp
+[3.008s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Emitter.hpp
+[3.008s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Field.hpp
+[3.008s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/GPS.hpp
+[3.008s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Gyro.hpp
+[3.009s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/ImageRef.hpp
+[3.009s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/InertialUnit.hpp
+[3.009s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Joystick.hpp
+[3.010s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Keyboard.hpp
+[3.010s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/LED.hpp
+[3.011s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Lidar.hpp
+[3.011s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/LightSensor.hpp
+[3.011s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Motor.hpp
+[3.011s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Mouse.hpp
+[3.012s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Node.hpp
+[3.012s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Pen.hpp
+[3.012s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/PositionSensor.hpp
+[3.012s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Proto.hpp
+[3.013s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Radar.hpp
+[3.013s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/RangeFinder.hpp
+[3.014s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Receiver.hpp
+[3.014s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Robot.hpp
+[3.014s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Skin.hpp
+[3.014s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Speaker.hpp
+[3.014s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/Supervisor.hpp
+[3.015s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/TouchSensor.hpp
+[3.015s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/VacuumGripper.hpp
+[3.017s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils/AnsiCodes.hpp
+[3.017s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/utils/Motion.hpp
+[3.017s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Car.hpp
+[3.017s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/include/webots/cpp/webots/vehicle/Driver.hpp
+[3.018s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/libController.so
+[3.018s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/libCppCar.so
+[3.019s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/libCppController.so
+[3.019s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/libCppController.so
+[3.019s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/libCppDriver.so
+[3.019s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/libcar.so
+[3.020s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/libdriver.so
+[3.020s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/libgeneric_robot_window.so
+[3.020s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/python/vehicle/car.py
+[3.020s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/controller/python/vehicle/driver.py
+[3.020s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver//webots_ros2_imu.xml
+[3.020s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver//webots_ros2_rgbd.xml
+[3.020s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/webots_ros2_driver/ros2_supervisor.py
+[3.020s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots_tcp_client.py
+[3.021s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/scripts/webots-controller
+[3.021s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.sh
+[3.021s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/library_path.dsv
+[3.022s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/ament_index/resource_index/package_run_dependencies/webots_ros2_driver
+[3.022s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/ament_index/resource_index/parent_prefix_path/webots_ros2_driver
+[3.022s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.sh
+[3.022s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/ament_prefix_path.dsv
+[3.022s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.sh
+[3.023s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/environment/path.dsv
+[3.023s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.bash
+[3.023s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.sh
+[3.023s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.zsh
+[3.023s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/local_setup.dsv
+[3.023s] -- Symlinking: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/package.dsv
+[3.034s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/ament_index/resource_index/packages/webots_ros2_driver
+[3.035s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_driver
+[3.035s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.036s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.037s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.037s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig.cmake
+[3.038s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake/webots_ros2_driverConfig-version.cmake
+[3.038s] -- Up-to-date symlink: /home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/share/webots_ros2_driver/package.xml
+[3.076s] Listing '/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/controller'...
+[3.127s] Listing '/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/vehicle'...
+[3.175s] Listing '/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages/webots_ros2_driver'...
+[3.187s] Invoked command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/usuario/Robotica/ros2_ws/build/webots_ros2_driver

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: webots-ros2-crazyflie
+Version: 2025.0.1
+Summary: ROS2 package for Crazyflie webots simulator
+Maintainer: Kimberly McGuire (Bitcraze AB)
+Maintainer-email: kimberly@bitcraze.io
+License: MIT

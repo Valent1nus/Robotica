@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "webots_ros2_msgs/srv/GetBool_Request",
+      "fields": [
+        {
+          "name": "ask",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "webots_ros2_msgs/srv/GetBool_Request",
+      "hash_string": "RIHS01_fbbc940385544bb23435c18be0b6f5b429f8f91e851272ee11b5ae0f90235483"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "webots_ros2_msgs/srv/SetString_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "webots_ros2_msgs/srv/SetString_Response",
+      "hash_string": "RIHS01_31b0a85466f10b7e97936c292ab465a7ca7364bda5582b5444fd55f3b53f91dd"
+    }
+  ]
+}

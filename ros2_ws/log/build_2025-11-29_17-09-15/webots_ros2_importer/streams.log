@@ -1,0 +1,18 @@
+[1.168s] Invoking command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Robotica/ros2_ws/build/webots_ros2_importer/build --no-deps symlink_data
+[1.531s] running develop
+[1.757s] running egg_info
+[1.778s] writing webots_ros2_importer.egg-info/PKG-INFO
+[1.780s] writing dependency_links to webots_ros2_importer.egg-info/dependency_links.txt
+[1.780s] writing entry points to webots_ros2_importer.egg-info/entry_points.txt
+[1.780s] writing requirements to webots_ros2_importer.egg-info/requires.txt
+[1.780s] writing top-level names to webots_ros2_importer.egg-info/top_level.txt
+[1.822s] reading manifest file 'webots_ros2_importer.egg-info/SOURCES.txt'
+[1.822s] writing manifest file 'webots_ros2_importer.egg-info/SOURCES.txt'
+[1.848s] running build_ext
+[1.848s] Creating /home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages/webots-ros2-importer.egg-link (link to .)
+[1.849s] Installing urdf2proto script to /home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[1.850s] Installing xacro2proto script to /home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[1.850s] 
+[1.850s] Installed /home/usuario/Robotica/ros2_ws/build/webots_ros2_importer
+[1.850s] running symlink_data
+[1.885s] Invoked command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Robotica/ros2_ws/build/webots_ros2_importer/build --no-deps symlink_data

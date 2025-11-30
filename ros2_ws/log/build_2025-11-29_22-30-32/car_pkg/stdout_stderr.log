@@ -1,0 +1,47 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running develop
+running egg_info
+creating car_pkg.egg-info
+writing car_pkg.egg-info/PKG-INFO
+writing dependency_links to car_pkg.egg-info/dependency_links.txt
+writing entry points to car_pkg.egg-info/entry_points.txt
+writing requirements to car_pkg.egg-info/requires.txt
+writing top-level names to car_pkg.egg-info/top_level.txt
+writing manifest file 'car_pkg.egg-info/SOURCES.txt'
+reading manifest file 'car_pkg.egg-info/SOURCES.txt'
+writing manifest file 'car_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usuario/Robotica/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car-pkg.egg-link (link to .)
+
+Installed /home/usuario/Robotica/ros2_ws/build/car_pkg
+running symlink_data
+creating /home/usuario/Robotica/ros2_ws/install/car_pkg/share/ament_index
+creating /home/usuario/Robotica/ros2_ws/install/car_pkg/share/ament_index/resource_index
+creating /home/usuario/Robotica/ros2_ws/install/car_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/usuario/Robotica/ros2_ws/build/car_pkg/resource/car_pkg -> /home/usuario/Robotica/ros2_ws/install/car_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/usuario/Robotica/ros2_ws/build/car_pkg/package.xml -> /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg
+creating /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/launch
+symbolically linking /home/usuario/Robotica/ros2_ws/build/car_pkg/launch/car_launch.py -> /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/launch
+creating /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/world
+symbolically linking /home/usuario/Robotica/ros2_ws/build/car_pkg/world/city_traffic.wbt -> /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/world
+creating /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/world/city_traffic_net
+creating /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/signs
+symbolically linking /home/usuario/Robotica/ros2_ws/build/car_pkg/signs/yield.png -> /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/signs
+symbolically linking /home/usuario/Robotica/ros2_ws/build/car_pkg/signs/stop.png -> /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/signs
+symbolically linking /home/usuario/Robotica/ros2_ws/build/car_pkg/signs/speed_limit.png -> /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/signs
+creating /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/resource
+symbolically linking /home/usuario/Robotica/ros2_ws/build/car_pkg/resource/car.urdf -> /home/usuario/Robotica/ros2_ws/install/car_pkg/share/car_pkg/resource

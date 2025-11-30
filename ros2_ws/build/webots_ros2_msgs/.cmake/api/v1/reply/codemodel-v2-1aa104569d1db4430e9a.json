@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b91b28d9ea454c9b5b57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "webots_ros2_msgs__py",
+					"jsonFile" : "directory-webots_ros2_msgs__py-2d68e215f4db0916939f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/webots_ros2_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "webots_ros2_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_webots_ros2_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_webots_ros2_msgs_egg-165ffbb1567442ce68f9.json",
+					"name" : "ament_cmake_python_build_webots_ros2_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_webots_ros2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_webots_ros2_msgs-85d87e15c137a70f121a.json",
+					"name" : "ament_cmake_python_symlink_webots_ros2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8a4418f7e7ae65243fc4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs-895cb0a04995ae8af708.json",
+					"name" : "webots_ros2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__cpp-2ec2ff08494ad3f2e977.json",
+					"name" : "webots_ros2_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "webots_ros2_msgs__py::@e1ff36a2ceddd3c78614",
+					"jsonFile" : "target-webots_ros2_msgs__py-14a9e830928bd37d5fc9.json",
+					"name" : "webots_ros2_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_generator_c-3f349927472e27868bc9.json",
+					"name" : "webots_ros2_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_generator_py-5ae94d3c15738dce74e0.json",
+					"name" : "webots_ros2_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_generator_type_description-9626612e28d1e93207c8.json",
+					"name" : "webots_ros2_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_typesupport_c-b9fb89ecd90eec67fef0.json",
+					"name" : "webots_ros2_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_typesupport_cpp-c1ac36b2bc2b0754356d.json",
+					"name" : "webots_ros2_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_typesupport_fastrtps_c-40cb6d7ce82310742774.json",
+					"name" : "webots_ros2_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp-85c2cf0fa52655cf3ced.json",
+					"name" : "webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_typesupport_introspection_c-eada203bdee4f6336795.json",
+					"name" : "webots_ros2_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs__rosidl_typesupport_introspection_cpp-7aef5ccf3e9754fd35e3.json",
+					"name" : "webots_ros2_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs_s__rosidl_typesupport_c-a111e57a11cb869c9b62.json",
+					"name" : "webots_ros2_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c-bae6785c7559df7fa694.json",
+					"name" : "webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs_s__rosidl_typesupport_introspection_c-1ab2ebda110c8911c144.json",
+					"name" : "webots_ros2_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webots_ros2_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webots_ros2_msgs_uninstall-c9f531ebd1ae8599334e.json",
+					"name" : "webots_ros2_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs",
+		"source" : "/home/usuario/Robotica/ros2_ws/src/webots_ros2/webots_ros2_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

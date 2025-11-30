@@ -1,0 +1,37 @@
+[1.797s] Invoking command in '/home/usuario/Robotica/ros2_ws/src/car_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/usuario/Robotica/build/car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/install/car_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/car_pkg build --build-base /home/usuario/Robotica/build/car_pkg/build install --record /home/usuario/Robotica/build/car_pkg/install.log --install-scripts $base/lib/car_pkg --single-version-externally-managed install_data
+[1.923s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.923s] !!
+[1.924s] 
+[1.924s]         ********************************************************************************
+[1.925s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.925s]         versions. Please use the underscore name 'script_dir' instead.
+[1.926s] 
+[1.926s]         This deprecation is overdue, please update your project and remove deprecated
+[1.926s]         calls to avoid build errors in the future.
+[1.926s] 
+[1.926s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.927s]         ********************************************************************************
+[1.927s] 
+[1.927s] !!
+[1.927s]   opt = self.warn_dash_deprecation(opt, section)
+[2.040s] running egg_info
+[2.063s] writing ../../../build/car_pkg/car_pkg.egg-info/PKG-INFO
+[2.064s] writing dependency_links to ../../../build/car_pkg/car_pkg.egg-info/dependency_links.txt
+[2.065s] deleting ../../../build/car_pkg/car_pkg.egg-info/entry_points.txt
+[2.065s] writing requirements to ../../../build/car_pkg/car_pkg.egg-info/requires.txt
+[2.065s] writing top-level names to ../../../build/car_pkg/car_pkg.egg-info/top_level.txt
+[2.101s] reading manifest file '../../../build/car_pkg/car_pkg.egg-info/SOURCES.txt'
+[2.103s] writing manifest file '../../../build/car_pkg/car_pkg.egg-info/SOURCES.txt'
+[2.104s] running build
+[2.104s] running build_py
+[2.105s] running install
+[2.111s] running install_lib
+[2.132s] running install_data
+[2.132s] copying launch/car_launch.py -> /home/usuario/Robotica/install/car_pkg/share/car_pkg/launch
+[2.133s] copying resource/car.urdf -> /home/usuario/Robotica/install/car_pkg/share/car_pkg/resource
+[2.133s] running install_egg_info
+[2.156s] removing '/home/usuario/Robotica/install/car_pkg/lib/python3.12/site-packages/car_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.156s] Copying ../../../build/car_pkg/car_pkg.egg-info to /home/usuario/Robotica/install/car_pkg/lib/python3.12/site-packages/car_pkg-0.0.0-py3.12.egg-info
+[2.156s] running install_scripts
+[2.288s] writing list of installed files to '/home/usuario/Robotica/build/car_pkg/install.log'
+[2.322s] Invoked command in '/home/usuario/Robotica/ros2_ws/src/car_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/usuario/Robotica/build/car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/install/car_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/car_pkg build --build-base /home/usuario/Robotica/build/car_pkg/build install --record /home/usuario/Robotica/build/car_pkg/install.log --install-scripts $base/lib/car_pkg --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<robot name="My robot">
+    <webots>
+        <plugin type="car_pkg.vehicle_controller.VehicleController" />
+    </webots>
+</robot>

@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing webots_ros2_turtlebot.egg-info/PKG-INFO
+writing dependency_links to webots_ros2_turtlebot.egg-info/dependency_links.txt
+writing entry points to webots_ros2_turtlebot.egg-info/entry_points.txt
+writing requirements to webots_ros2_turtlebot.egg-info/requires.txt
+writing top-level names to webots_ros2_turtlebot.egg-info/top_level.txt
+reading manifest file 'webots_ros2_turtlebot.egg-info/SOURCES.txt'
+writing manifest file 'webots_ros2_turtlebot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usuario/Robotica/ros2_ws/install/webots_ros2_turtlebot/lib/python3.12/site-packages/webots-ros2-turtlebot.egg-link (link to .)
+
+Installed /home/usuario/Robotica/ros2_ws/build/webots_ros2_turtlebot
+running symlink_data

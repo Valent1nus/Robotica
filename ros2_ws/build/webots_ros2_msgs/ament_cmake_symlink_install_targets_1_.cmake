@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_generator_py/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "webots_ros2_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/webots_ros2_msgs")

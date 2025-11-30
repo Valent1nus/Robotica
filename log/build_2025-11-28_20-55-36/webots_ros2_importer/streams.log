@@ -1,0 +1,22 @@
+[1.546s] Invoking command in '/home/usuario/Robotica/ros2_ws/src/webots_ros2/webots_ros2_importer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/usuario/Robotica/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/webots_ros2_importer build --build-base /home/usuario/Robotica/build/webots_ros2_importer/build install --record /home/usuario/Robotica/build/webots_ros2_importer/install.log --single-version-externally-managed install_data
+[1.840s] running egg_info
+[1.858s] writing ../../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/PKG-INFO
+[1.859s] writing dependency_links to ../../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/dependency_links.txt
+[1.860s] writing entry points to ../../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/entry_points.txt
+[1.861s] writing requirements to ../../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/requires.txt
+[1.861s] writing top-level names to ../../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/top_level.txt
+[1.898s] reading manifest file '../../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[1.900s] writing manifest file '../../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[1.902s] running build
+[1.902s] running build_py
+[1.902s] running install
+[1.907s] running install_lib
+[1.932s] running install_data
+[1.932s] running install_egg_info
+[1.958s] removing '/home/usuario/Robotica/install/webots_ros2_importer/lib/python3.12/site-packages/webots_ros2_importer-2025.0.1-py3.12.egg-info' (and everything under it)
+[1.958s] Copying ../../../../build/webots_ros2_importer/webots_ros2_importer.egg-info to /home/usuario/Robotica/install/webots_ros2_importer/lib/python3.12/site-packages/webots_ros2_importer-2025.0.1-py3.12.egg-info
+[1.960s] running install_scripts
+[2.094s] Installing urdf2proto script to /home/usuario/Robotica/install/webots_ros2_importer/lib/webots_ros2_importer
+[2.097s] Installing xacro2proto script to /home/usuario/Robotica/install/webots_ros2_importer/lib/webots_ros2_importer
+[2.098s] writing list of installed files to '/home/usuario/Robotica/build/webots_ros2_importer/install.log'
+[2.134s] Invoked command in '/home/usuario/Robotica/ros2_ws/src/webots_ros2/webots_ros2_importer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/usuario/Robotica/build/webots_ros2_importer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/webots_ros2_importer build --build-base /home/usuario/Robotica/build/webots_ros2_importer/build install --record /home/usuario/Robotica/build/webots_ros2_importer/install.log --single-version-externally-managed install_data

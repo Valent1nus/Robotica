@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot name="car">
+  <webots>
+    <device reference="cc" type="CarCamera">
+        <ros>
+            <topicName>/car_camera</topicName>
+            <alwaysOn>true</alwaysOn>
+        </ros>
+    </device>
+    <device reference="rc" type="RoadCamera">
+        <ros>
+            <topicName>/road_camera</topicName>
+            <alwaysOn>true</alwaysOn>
+        </ros>
+    </device>
+    <plugin type="car_pkg.vehicle_controller.VehicleController"/>
+  </webots>
+
+</robot>
+

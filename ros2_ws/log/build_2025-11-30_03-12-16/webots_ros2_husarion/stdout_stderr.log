@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing webots_ros2_husarion.egg-info/PKG-INFO
+writing dependency_links to webots_ros2_husarion.egg-info/dependency_links.txt
+writing requirements to webots_ros2_husarion.egg-info/requires.txt
+writing top-level names to webots_ros2_husarion.egg-info/top_level.txt
+reading manifest file 'webots_ros2_husarion.egg-info/SOURCES.txt'
+writing manifest file 'webots_ros2_husarion.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usuario/Robotica/ros2_ws/install/webots_ros2_husarion/lib/python3.12/site-packages/webots-ros2-husarion.egg-link (link to .)
+
+Installed /home/usuario/Robotica/ros2_ws/build/webots_ros2_husarion
+running symlink_data

@@ -1,0 +1,44 @@
+[2.891s] Invoking command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_crazyflie': AMENT_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usuario/Robotica/ros2_ws/build/webots_ros2_crazyflie/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/ros2_ws/install/webots_ros2_crazyflie/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Robotica/ros2_ws/build/webots_ros2_crazyflie/build --no-deps symlink_data
+[3.286s] Traceback (most recent call last):
+[3.286s]   File "/home/usuario/Robotica/ros2_ws/build/webots_ros2_crazyflie/setup.py", line 15, in <module>
+[3.287s]     setup(
+[3.287s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[3.287s]     return distutils.core.setup(**attrs)
+[3.287s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.287s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 147, in setup
+[3.288s]     _setup_distribution = dist = klass(attrs)
+[3.288s]                                  ^^^^^^^^^^^^
+[3.288s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 485, in __init__
+[3.296s]     _Distribution.__init__(
+[3.296s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 283, in __init__
+[3.305s]     self.finalize_options()
+[3.307s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 922, in finalize_options
+[3.307s]     defined = metadata.entry_points(group=group)
+[3.307s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.307s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+[3.307s]     return EntryPoints(eps).select(**params)
+[3.307s]            ^^^^^^^^^^^^^^^^
+[3.307s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 911, in <genexpr>
+[3.309s]     dist.entry_points for dist in _unique(distributions())
+[3.309s]     ^^^^^^^^^^^^^^^^^
+[3.309s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 471, in entry_points
+[3.309s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[3.309s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.309s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 312, in _from_text_for
+[3.309s]     return cls(ep._for(dist) for ep in cls._from_text(text))
+[3.309s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.309s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 312, in <genexpr>
+[3.309s]     return cls(ep._for(dist) for ep in cls._from_text(text))
+[3.310s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.312s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 316, in <genexpr>
+[3.313s]     return (
+[3.313s]            ^
+[3.313s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 104, in <genexpr>
+[3.313s]     section._replace(value=Pair.parse(section.value))
+[3.313s]   File "/usr/lib/python3.12/collections/__init__.py", line 458, in _replace
+[3.313s]     result = self._make(_map(kwds.pop, field_names, self))
+[3.313s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.313s]   File "/usr/lib/python3.12/collections/__init__.py", line 447, in _make
+[3.313s]     @classmethod
+[3.313s] 
+[3.313s] KeyboardInterrupt

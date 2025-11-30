@@ -1,0 +1,12 @@
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/BoolStamped.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/FloatStamped.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/StringStamped.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/CameraRecognitionObject.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/CameraRecognitionObjects.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/UrdfRobot.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/PenInkProperties.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/EmitterSendString.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/GetBool.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/SetString.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/SpawnNodeFromString.idl
+/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/SpawnUrdfRobot.idl

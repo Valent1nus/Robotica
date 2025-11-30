@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "webots_ros2_msgs/srv/SetString_Request",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "webots_ros2_msgs/srv/SetString_Request",
+      "hash_string": "RIHS01_b6ddb91e528f46075e1b81ab0fefadd87d0d1027671e9cc25868292222e25ce4"
+    }
+  ]
+}

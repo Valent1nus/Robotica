@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing webots_ros2_tests.egg-info/PKG-INFO
+writing dependency_links to webots_ros2_tests.egg-info/dependency_links.txt
+writing requirements to webots_ros2_tests.egg-info/requires.txt
+writing top-level names to webots_ros2_tests.egg-info/top_level.txt
+reading manifest file 'webots_ros2_tests.egg-info/SOURCES.txt'
+writing manifest file 'webots_ros2_tests.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usuario/Robotica/ros2_ws/install/webots_ros2_tests/lib/python3.12/site-packages/webots-ros2-tests.egg-link (link to .)
+
+Installed /home/usuario/Robotica/ros2_ws/build/webots_ros2_tests
+running symlink_data

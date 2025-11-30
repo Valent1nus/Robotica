@@ -1,0 +1,42 @@
+[2.931s] Invoking command in '/home/usuario/Robotica/ros2_ws/build/webots_ros2_tesla': AMENT_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usuario/Robotica/ros2_ws/build/webots_ros2_tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usuario/Robotica/ros2_ws/install/webots_ros2_tesla/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/install/webots_ros2_driver/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/install/webots_ros2_msgs/lib/python3.12/site-packages:/home/usuario/Robotica/ros2_ws/build/webots_ros2_importer:/home/usuario/Robotica/ros2_ws/install/webots_ros2_importer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usuario/Robotica/ros2_ws/build/webots_ros2_tesla/build --no-deps symlink_data
+[3.361s] Traceback (most recent call last):
+[3.361s]   File "/home/usuario/Robotica/ros2_ws/build/webots_ros2_tesla/setup.py", line 19, in <module>
+[3.361s]     setup(
+[3.361s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[3.361s]     return distutils.core.setup(**attrs)
+[3.361s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.361s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 172, in setup
+[3.361s]     ok = dist.parse_command_line()
+[3.361s]          ^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.361s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 475, in parse_command_line
+[3.361s]     args = self._parse_command_opts(parser, args)
+[3.361s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.363s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1133, in _parse_command_opts
+[3.363s]     nargs = _Distribution._parse_command_opts(self, parser, args)
+[3.363s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.363s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 534, in _parse_command_opts
+[3.363s]     cmd_class = self.get_command_class(command)
+[3.363s]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.363s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 978, in get_command_class
+[3.363s]     eps = metadata.entry_points(group='distutils.commands', name=command)
+[3.363s]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.363s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+[3.363s]     return EntryPoints(eps).select(**params)
+[3.363s]            ^^^^^^^^^^^^^^^^
+[3.363s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 911, in <genexpr>
+[3.363s]     dist.entry_points for dist in _unique(distributions())
+[3.363s]     ^^^^^^^^^^^^^^^^^
+[3.363s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 471, in entry_points
+[3.363s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[3.364s]                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.364s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 819, in read_text
+[3.365s]     return self._path.joinpath(filename).read_text(encoding='utf-8')
+[3.365s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.365s]   File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+[3.365s]     with self.open(mode='r', encoding=encoding, errors=errors) as f:
+[3.365s]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.365s]   File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+[3.365s]     return io.open(self, mode, buffering, encoding, errors, newline)
+[3.365s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.365s]   File "<frozen codecs>", line 309, in __init__
+[3.366s] KeyboardInterrupt

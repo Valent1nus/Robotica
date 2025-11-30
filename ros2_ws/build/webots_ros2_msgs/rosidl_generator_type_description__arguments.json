@@ -1,0 +1,25 @@
+{
+  "package_name": "webots_ros2_msgs",
+  "output_dir": "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_generator_type_description/webots_ros2_msgs",
+  "idl_tuples": [
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/BoolStamped.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/FloatStamped.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/StringStamped.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/CameraRecognitionObject.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/CameraRecognitionObjects.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/UrdfRobot.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:msg/PenInkProperties.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/EmitterSendString.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/GetBool.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/SetString.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/SpawnNodeFromString.idl",
+    "/home/usuario/Robotica/ros2_ws/build/webots_ros2_msgs/rosidl_adapter/webots_ros2_msgs:srv/SpawnUrdfRobot.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "vision_msgs:/opt/ros/jazzy/share/vision_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

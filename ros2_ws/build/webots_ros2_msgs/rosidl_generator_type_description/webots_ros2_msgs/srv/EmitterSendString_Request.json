@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "webots_ros2_msgs/srv/EmitterSendString_Request",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "webots_ros2_msgs/srv/EmitterSendString_Request",
+      "hash_string": "RIHS01_e84afd9f98cf1998b67ae3dedade2e74faa78f446d1df06a67727bc2bb1afd35"
+    }
+  ]
+}

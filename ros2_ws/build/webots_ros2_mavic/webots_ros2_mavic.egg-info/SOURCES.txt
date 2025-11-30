@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch/robot_launch.py
+resource/mavic_webots.urdf
+resource/webots_ros2_mavic
+webots_ros2_mavic/__init__.py
+webots_ros2_mavic/mavic_driver.py
+webots_ros2_mavic.egg-info/PKG-INFO
+webots_ros2_mavic.egg-info/SOURCES.txt
+webots_ros2_mavic.egg-info/dependency_links.txt
+webots_ros2_mavic.egg-info/entry_points.txt
+webots_ros2_mavic.egg-info/requires.txt
+webots_ros2_mavic.egg-info/top_level.txt
+webots_ros2_mavic.egg-info/zip-safe
+worlds/.mavic_world.wbproj
+worlds/mavic_world.wbt

@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+resource/webots_ros2
+webots_ros2/__init__.py
+webots_ros2.egg-info/PKG-INFO
+webots_ros2.egg-info/SOURCES.txt
+webots_ros2.egg-info/dependency_links.txt
+webots_ros2.egg-info/requires.txt
+webots_ros2.egg-info/top_level.txt
+webots_ros2.egg-info/zip-safe

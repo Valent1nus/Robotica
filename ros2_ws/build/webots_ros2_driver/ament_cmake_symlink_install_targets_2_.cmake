@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/usuario/Robotica/ros2_ws/build/webots_ros2_driver/libwebots_ros2_driver_rgbd.so" "TARGETS" "webots_ros2_driver_rgbd" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")
