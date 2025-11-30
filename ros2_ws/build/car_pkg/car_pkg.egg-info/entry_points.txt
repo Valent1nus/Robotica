@@ -1,2 +1,0 @@
-[webots_ros2_driver]
-vehicle_controller = car_pkg.vehicle_controller:VehicleController

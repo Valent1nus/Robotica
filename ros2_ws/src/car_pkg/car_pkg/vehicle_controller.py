@@ -164,6 +164,9 @@ class VehicleController(WebotsController):
         self.prev_error = lane_error
 
         alpha = max(min(alpha, self.max_angle), -self.max_angle)
+        
+        if speed == self.base_speed:
+            alpha = max(min(alpha, 0.2), -0.2)
 
         try:
             steering_angle = math.atan(
